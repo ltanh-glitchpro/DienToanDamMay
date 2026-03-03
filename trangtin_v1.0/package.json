@@ -1,0 +1,18 @@
+{
+  "name": "trangtin",
+  "version": "1.0.0",
+  "description": "Trang tin điện tử NodeJS + MongoDB Atlas",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "author": "Lê Tuấn Anh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.3",
+    "multer": "^2.1.0"
+  }
+}

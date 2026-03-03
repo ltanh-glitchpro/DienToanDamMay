@@ -1,0 +1,10 @@
+# Chặn thư mục cấu hình editor
+.vs/
+.vscode/
+.idea/
+
+# Chặn thư mục build/phụ thuộc (nếu sau này dùng nodejs)
+node_modules/
+
+# Chặn file log
+*.log
