@@ -4,6 +4,7 @@ var mongoose = require('mongoose');
 const multer = require('multer');
 app.use(express.static('public'));
 
+
 //Bổ sung các router
 var indexRouter = require('./routers/index'); 
 var chudeRouter = require('./routers/chude'); 
