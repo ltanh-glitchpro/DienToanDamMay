@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var mongoose = require('mongoose');
 var session = require('express-session');
+var path = require('path');
 
 var indexRouter = require('./routers/index');
 var authRouter = require('./routers/auth');
@@ -18,7 +19,9 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+app.use('/', express.static(path.join(__dirname, 'public'))); 
 
+// cấu hình session
 app.use(session({ 
     name: 'iNews',                          // Tên session (tự chọn) 
     secret: 'Mèo méo meo mèo meo',          // Khóa bảo vệ (tự chọn) 
@@ -27,8 +30,9 @@ app.use(session({
     cookie: { 
         maxAge: 30 * 24 * 60 * 60 * 1000    // Hết hạn sau 30 ngày 
     } 
-})); 
- 
+}));
+
+ // Tạo vùng nhớ lưu trữ flash session (kĩ thuật thông báo 1 lần)
 app.use((req, res, next) => { 
     // Chuyển biến session thành biến cục bộ 
     res.locals.session = req.session; 
