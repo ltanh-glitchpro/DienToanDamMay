@@ -11,16 +11,10 @@ var chudeRouter = require('./routers/chude');
 var taikhoanRouter = require('./routers/taikhoan'); 
 var baivietRouter = require('./routers/baiviet'); 
 
-var uri = 'mongodb+srv://admin:admin123@cluster0.dmubves.mongodb.net/trangtin';
+var uri = 'mongodb://admin:admin123@ac-exoafeo-shard-00-02.dmubves.mongodb.net:27017/trangtin?ssl=true&authSource=admin';
 mongoose.connect(uri)
-.then(async () => {
-  console.log('Kết nối MongoDB thành công');
-
-  console.log('Đã thêm dữ liệu mẫu vào DB');
-})
-.catch((err) => {
-  console.error('Lỗi kết nối MongoDB:', err);
-});
+ .then(() => console.log('Đã kết nối thành công tới MongoDB.'))
+ .catch(err => console.log(err))
 
 // sử dụng view engine EJS và thư mục views
 app.set('views', './views'); 
