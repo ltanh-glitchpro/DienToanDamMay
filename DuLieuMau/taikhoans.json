@@ -1,0 +1,26 @@
+[{
+  "_id": {
+    "$oid": "67d01e839e3915e4eaadad90"
+  },
+  "HoVaTen": "Quản Trị Viên",
+  "Email": "admin@gmail.com",
+  "HinhAnh": "",
+  "TenDangNhap": "admin",
+  "MatKhau": "$2b$10$9BlecBC0.XgvR5H7Hn.Ro.2a3x1dtfZIkRt78j7Aacj9j8eG3QxOK",
+  "QuyenHan": "admin",
+  "KichHoat": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67d95078101488071717eb06"
+  },
+  "HoVaTen": "Thành Viên",
+  "Email": "user@gmail.com",
+  "HinhAnh": "",
+  "TenDangNhap": "user",
+  "MatKhau": "$2b$10$YhBB0YqisSPat1AuCr6J6uD3cxZQQaSEAKrs/2ljoUo7VZVrr45mW",
+  "QuyenHan": "user",
+  "KichHoat": 1,
+  "__v": 0
+}]

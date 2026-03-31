@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "67d014540a270d5e536cacbb"
+  },
+  "TenChuDe": "Thời sự",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a601ae5729bf0546a59"
+  },
+  "TenChuDe": "Thế giới",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a651ae5729bf0546a5c"
+  },
+  "TenChuDe": "Kinh doanh",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a6b1ae5729bf0546a5f"
+  },
+  "TenChuDe": "Công nghệ",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a701ae5729bf0546a62"
+  },
+  "TenChuDe": "Khoa học",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a751ae5729bf0546a65"
+  },
+  "TenChuDe": "Video",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a7c1ae5729bf0546a68"
+  },
+  "TenChuDe": "Podcasts",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a811ae5729bf0546a6b"
+  },
+  "TenChuDe": "Góc nhìn",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a851ae5729bf0546a6e"
+  },
+  "TenChuDe": "Bất động sản",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a8a1ae5729bf0546a71"
+  },
+  "TenChuDe": "Sức khỏe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a901ae5729bf0546a74"
+  },
+  "TenChuDe": "Thể thao",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a961ae5729bf0546a77"
+  },
+  "TenChuDe": "Giải trí",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3a9c1ae5729bf0546a7a"
+  },
+  "TenChuDe": "Pháp luật",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3aa31ae5729bf0546a7d"
+  },
+  "TenChuDe": "Giáo dục",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3aa91ae5729bf0546a80"
+  },
+  "TenChuDe": "Đời sống",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3ab01ae5729bf0546a83"
+  },
+  "TenChuDe": "Xe",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3ab61ae5729bf0546a86"
+  },
+  "TenChuDe": "Du lịch",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3abc1ae5729bf0546a89"
+  },
+  "TenChuDe": "Ý kiến",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3ac31ae5729bf0546a8c"
+  },
+  "TenChuDe": "Tâm sự",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67de3aca1ae5729bf0546a8f"
+  },
+  "TenChuDe": "Thư giãn",
+  "__v": 0
+}]
